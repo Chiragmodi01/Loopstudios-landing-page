@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+ margin: 0;
+ background-color: white;
+ font-size: 15px;
+}
+a{
+  text-decoration: none;
+}
+.head{
+  background-image: url('/images/mobile/image-hero.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.navbar{
+  padding: 2.5rem 1.5rem;
+}
+.nav-brand img{
+  width: 50%;
+}
+.menu{
+  background-color: transparent;
+  border: none;
+  float: right;
+  size: 10px;
+  outline: none;
+}
+.menu img{
+  height: 3vh;
+}
+.slogan{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: left;
+  border: solid 2px white;
+  width: 20rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30% auto;
+}
+
+
+.pg01-vr{
+  padding: 1.5rem;
+}
+.top img{
+  width: 100%;
+  padding: 4rem 0 1rem 0;
+}
+.pg01-vr h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem auto;
+}
+.pg01-vr p{
+  font-family: 'Alata', sans-serif;
+  color: hsl(0, 0%, 55%);
+  text-align: center;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17rem;
+  margin: 0 auto 2.5rem auto;
+}
+
+
+.pg02-grid h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem auto;
+}
+.grids{
+  padding: 1rem 1.5rem;
+}
+.grids img{
+  padding: 0.6rem 0;
+  width: 100%;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+  position: relative;
+}
+.img4 p{
+  word-spacing: 1rem;
+}
+.grids p{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  z-index: 1;
+  width: 7.7rem;
+  bottom: 10px;
+  left: 23px;
+  text-shadow: 1px 0px 10px black;
+}
+.pg02-grid .btn-see-all{
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: black;
+  border: solid 2px hsl(0, 0%, 41%);
+  font-family: 'Alata', sans-serif;
+  padding: 0.5rem 2.8rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3rem;
+}
+
+
+.footer{
+  padding: 3.5rem 2.5rem;
+  background-color: black;
+}
+.footer .logo{
+  width: 60%;
+  display: flex;
+  margin: 0 auto 2.3rem auto;
+}
+.footer-pills a{
+  color: white;
+  font-size: 1.1em;
+  justify-content: center;
+  opacity: 70%;
+  display: flex;
+  margin: 1.3rem auto;
+  font-family: 'Alata', sans-serif;
+}
+.footer-socials{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 2.5rem auto 1.6rem auto;
+}
+.footer-socials img{
+  padding: 0 0.8rem;
+}
+.footer p{
+  font-family: 'Alata', sans-serif;
+  color: hsl(0, 0%, 41%);
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.overlay{
+ display: none;
+ background-color: black;
+ height: 100vh;
+}
+.overlay .nav-brand{
+  width: 50%;
+}
+.overlay button{
+  background-color: transparent;
+  border: none;
+  float: right;
+  size: 10px;
+  outline: none;
+}
+overlay nav-brand{
+  height: 3vh;
+}
+.overlay .pills a{
+  color: white;
+  font-size: 1.5em;
+  justify-content: center;
+  display: block;
+  margin: 1.5rem auto;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+.overlay nav{
+  padding: 2.5rem 1.5rem;
+}
+.overlay .pills{
+  padding: 4rem 1rem;
+}
+.overlay close-img{
+  height: 3vh;
+}
+
+@media only screen and (min-width: 1200px){
+body{
+  overflow: hidden;
+}
+.head{
+  background-image: url(/images/desktop/image-hero.jpg);
+}
+.navbar{
+  padding: 2.5rem 1.5rem;
+}
+.nav-brand img{
+  width: 400px;
+  padding-left: 7rem;
+}
+.menu img{
+  height: 4vh;
+}
+.menu{
+  pointer-events: none;
+}
+.slogan { 
+  font-size: 50px;
+  border: solid 2px white;
+  width: 30rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 10%;
+  cursor: pointer;
+}
+}
